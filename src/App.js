@@ -5,8 +5,8 @@ import Device from "./components/Device/Device";
 function App() {
   const [steps, setSteps] = useState(0);
   const handleIncreaseSteps = () => {
-    const newSteps = steps + 1;
-    setSteps(newSteps);
+    // const newSteps = steps + 1;
+    setSteps(steps + 1);
   };
   return (
     <div className="App">
