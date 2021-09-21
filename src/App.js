@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Device from "./components/Device/Device";
 
@@ -9,6 +9,10 @@ function App() {
     setSteps(steps + 1);
     console.log(steps);
   };
+  useEffect(() => {
+    // console.log("hello");
+    console.log("steps");
+  }, [steps]);
   return (
     <div className="App">
       <Device name="phone" price="13500" />
