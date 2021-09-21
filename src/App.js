@@ -1,7 +1,9 @@
+import { useState } from "react";
 import "./App.css";
 import Device from "./components/Device/Device";
 
 function App() {
+  const [steps, setSetsps] = useState([]);
   return (
     <div className="App">
       <Device name="phone" price="13500" />
