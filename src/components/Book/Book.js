@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./Book.css";
 const Book = (props) => {
   return (
-    <div>
-      <h2>{props.name}</h2>
-      <h4>{props.author}</h4>
+    <div className="Book">
+      <h2>Book name: {props.name}</h2>
+      <h4>Author name: {props.author}</h4>
     </div>
   );
 };

@@ -1,0 +1,7 @@
+.Book {
+  background-color: ghostwhite;
+  border: 2px solid gray;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 6px;
+}
