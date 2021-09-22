@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Device name="phone" price="13500" />
+      <Device name="phone" steps={steps} price="13500" />
       <h3>npm= Node Package Manager </h3>
       <h4>command-line interface</h4>
       <h3>My Steps:{steps}</h3>
