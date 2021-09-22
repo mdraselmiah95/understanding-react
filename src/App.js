@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Book from "./components/Book/Book";
 import Device from "./components/Device/Device";
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
       <button onClick={handleIncreaseSteps}>Walk</button>
       <br /> <br />
       <button>CLICK ME</button>
+      <br />
+      <Book></Book>
     </div>
   );
 }
