@@ -12,4 +12,15 @@ const Books = (props) => {
   );
 };
 
+/* 
+1. JSX
+2. Component
+3. Props
+4. Event handle
+5. State
+6. UseEffect
+
+
+*/
+
 export default Books;
