@@ -4,6 +4,12 @@ import Device from "./components/Device/Device";
 
 function App() {
   const [steps, setSteps] = useState(0);
+  const books = [
+    { name: "Small Giants", author: "roy" },
+    { name: "Build to sell", author: "john" },
+    { name: "Grind it", author: "Bay" },
+    { name: "Shoe Dog", author: "Bo" },
+  ];
   const handleIncreaseSteps = () => {
     // const newSteps = steps + 1;
     setSteps(steps + 1);
