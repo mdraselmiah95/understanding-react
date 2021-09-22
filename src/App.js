@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Book from "./components/Book/Book";
+import Books from "./components/Books/Books";
 import Device from "./components/Device/Device";
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <br /> <br />
       <button>CLICK ME</button>
       <br />
-      <Book></Book>
+      <Books books={books} />
     </div>
   );
 }

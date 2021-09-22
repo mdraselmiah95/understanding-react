@@ -1,14 +1,15 @@
-import React from 'react';
+import React from "react";
+import Book from "../Book/Book";
 
-const Books = () => {
-    const books=
-    return (
-        <div>
-            {
-                books.map(book=><Book name={book.name}></Book>)
-            }
-        </div>
-    );
+const Books = (props) => {
+  const books = props.books;
+  return (
+    <div>
+      {books.map((book) => (
+        <Book name={book.name} author={book.author}></Book>
+      ))}
+    </div>
+  );
 };
 
 export default Books;
