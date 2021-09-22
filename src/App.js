@@ -13,6 +13,7 @@ function App() {
     // console.log("hello");
     console.log("steps");
   }, [steps]);
+
   return (
     <div className="App">
       <Device name="phone" price="13500" />
