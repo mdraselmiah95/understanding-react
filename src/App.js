@@ -1,14 +1,14 @@
 import React from "react";
 import Modal from "./components/Modal/Modal";
 import Motion from "./components/Motion/Motion";
-import ReactModal from "./components/ReactModal/ReactModal";
+import NewModal from "./components/NewModal/NewModal";
+// import ReactModal from "./components/ReactModal/ReactModal";
 
 function App() {
   return (
     <div>
       <Modal />
-      <Motion />
-      <ReactModal />
+      <NewModal />
     </div>
   );
 }
